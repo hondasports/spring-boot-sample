@@ -1,0 +1,71 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+spring.log
+
+# JVM dumps
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# Build outputs (already ignoring build/, bin/, out/, .gradle)
+# Ensure Gradle wrapper scripts/jars are committed
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Spring Boot local-only config
+application-*.local.properties
+application-*.local.yml
+application-*.local.yaml
+
+# Docker env files
+.env
+.env.*.local
+
+# Local docker volumes (only if you bind-mount to a folder)
+# pgdata/
+# docker-data/
